@@ -1,0 +1,48 @@
+/* @media screen  and (min-width:410) and (max-width:8) {
+    
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+    
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... } */
+
+
+@media all (mix-width:999px) and (1135){ 
+    body{
+        border: 2px solid black;
+        background: url(./Image/b.jpeg) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 95%;
+        height: 100%;
+        margin: 0px auto;
+    }
+    #name {
+        width: 900px;
+        height: 200px;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap:5px;
+        padding: 100px 100px;
+        margin-top: 0px;
+        margin-bottom: 100px;
+      }
+      img {
+        width: 300px;
+        font-weight: 1000;
+        height: 100px;
+        font-size: small;
+        padding: 10px 100px 25px 100px;
+       
+      }
+
+ }
+/* 
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... } */
