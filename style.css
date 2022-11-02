@@ -111,10 +111,12 @@ height: 100%;
   border-radius: 50px;
   padding: 2px 3px;
   width: 70%; 
-  box-shadow: palevioletred;
+  transition:0.5s ease-in-out;
+  box-shadow:0px 5px 5px 5px rgb(235, 163, 187) inset;
 }
 .card1:hover {
-box-shadow: palevioletred;
+transform: translate(20px);
+box-shadow: inset;
 }
 #content2{
   margin: 0 auto;
